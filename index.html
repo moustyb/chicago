@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello World</h1>
+<p>This is my HTML page</p>
+<h3>This is the header 3</h3>
+<h6>This is the header 6</h6>
+<ul>
+<li class='myClass' >Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+<li class='myClass'>Water</li>
+</ul>
+
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+<li id='myId'>Water</li>
+</ol>
+
+<a href='http://www.google.com'>This is a link to google</a>
+
+<img width='600px' height='600px' src='http://www.strengthsinternational.com/wp-content/uploads/2013/12/chicago-theater.jpg'>
+
+<button onclick='myfunc()' >alret something</button>
+
+<button onclick='changeColor()' >change color</button>
+
+<script>
+var myfunc = function (){
+alert ('Hello World!!!!');
+}
+
+var changeColor=function (){
+  document.getElementById ('myId').style.color='yellow';
+}
+</script>
+
+<style>
+
+p{
+color:red;
+font-size:45px;
+border:2px solid aqua;
+padding:20px; solid gray;
+margin:30px; solid 
+}
+li{
+background-color:#01A9DB;}
+
+#myId{
+background-color:gray;}
+.myClass{
+background-color:red;
+}
+
+
+</style>
+</body>
+</html>
+
