@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello word</h1>
+<p>This my first HTML page</p>
+<p>Welcome to my page</p>
+<h3>Chicago most famous destinations 3</h3>
+<ul>
+<li class='myClass' >Millennium Park </li>
+<li>Navy Pier</li>
+<li>Willis Tower</li>
+<li class='myClass'>Lincoln Park Zoo</li>
+</ul>
+
+<ol>
+<li>Millennium Park</li>
+<li>Navy Pier</li>
+<li>Willis Tower</li>
+<li id='myId'>Lincoln Park Zoo</li>
+</ol>
+
+<a href='http://desktop-backgrounds-org.s3.amazonaws.com/chicago-places_4.jpg'>
+
+</style>
+</body>
+</html>
